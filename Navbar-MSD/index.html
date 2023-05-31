@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahendra Singh Dhoni</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="">MS.Dhoni</a>
+        </div>
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Life & Background</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Records</a></li>
+            <li><a href="">Awards & Achievements</a></li>
+            <li><a href="">Outside Cricket</a></li>
+            <li><a href="">Personal Life</a></li>
+        </ul>
+    </nav>
+   
+    <script>
+        const menu =document.querySelector('.menu')
+        const menuList = document.querySelector('.nav ul')
+        menu.addEventListener('click',()=>{
+            menuList.classList.toggle('showmenu')
+        })
+    </script>
+</body>
+</html>
